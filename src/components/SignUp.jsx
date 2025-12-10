@@ -146,15 +146,15 @@ const SignUp = () => {
             </div>
 
             <div className="social-login">
-                <button type="button" className="social-btn" title="Sign up with Google">
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="social-btn" title="Sign up with Google">
                     <FaGoogle />
-                </button>
-                <button type="button" className="social-btn" title="Sign up with GitHub">
+                </a>
+                <a href="https://github.com/Sarojsin" target="_blank" rel="noopener noreferrer" className="social-btn" title="Visit GitHub Profile">
                     <FaGithub />
-                </button>
-                <button type="button" className="social-btn" title="Sign up with Facebook">
+                </a>
+                <a href="https://www.facebook.com/saroj.dhami.710" target="_blank" rel="noopener noreferrer" className="social-btn" title="Visit Facebook Profile">
                     <FaFacebook />
-                </button>
+                </a>
             </div>
         </div>
     );

@@ -80,15 +80,15 @@ const SignIn = () => {
             </div>
 
             <div className="social-login">
-                <button type="button" className="social-btn" title="Sign in with Google">
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="social-btn" title="Sign in with Google">
                     <FaGoogle />
-                </button>
-                <button type="button" className="social-btn" title="Sign in with GitHub">
+                </a>
+                <a href="https://github.com/Sarojsin" target="_blank" rel="noopener noreferrer" className="social-btn" title="Visit GitHub Profile">
                     <FaGithub />
-                </button>
-                <button type="button" className="social-btn" title="Sign in with Facebook">
+                </a>
+                <a href="https://www.facebook.com/saroj.dhami.710" target="_blank" rel="noopener noreferrer" className="social-btn" title="Visit Facebook Profile">
                     <FaFacebook />
-                </button>
+                </a>
             </div>
         </div>
     );
